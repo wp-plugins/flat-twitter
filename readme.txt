@@ -21,10 +21,20 @@ In addition the Feeds widget makes use of caching system, supports emoji, reply 
 If you have suggestions feel free to email me at hello@lambertmb.com.
 
 == Installation ==
-The plugin installation can be done in two ways- Via FTP: Extract flat-twitter folder from archive and move it to Wordpress plugins folder (wp- content/plugins).
+The plugin installation can be done in two ways
+- Via FTP: Extract flat-twitter folder from archive and move it to Wordpress plugins folder (wp- content/plugins).
 - Via Wordpress Install: In Wordpress admin area go to Plugins and Add New. Choose Upload Plugin and select the plugin archive (flat-twitter.zip) and the click Install.After you have successfully installed the plugin click Activate.
 
-For more information about the plugin, refer to the documentation pdf inside the documentation folder.
+**Configuration**
+
+- Now that you have activated the plugin, go to Settings where you will find Flat Twitter configuration panel. Click on It and insert your Twitter app tokens. If you haven’t created a Twitter app yet, head to https://apps.twitter.com/ sign in and click Create New App to create a new application.
+
+- After you have clicked Create New App, fill in the form.
+
+- After you have done so go to Keys an Access Tokens and copy the required tokens into Flat Twitter configuration Panel and click Submit.
+
+
+For more information about the plugin, refer to the documentation in /documentation/flat-twitter-documentation.pdf.
 
 
 == Frequently Asked Questions ==
