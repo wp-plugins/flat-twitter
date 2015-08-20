@@ -15,45 +15,49 @@
 	margin-bottom: 1.5em;
 }
 
-.flat.twitter-profile 
+.flat.twitter-profile, 
 .flat-twitter-feeds {
 	line-height: 1.5;
 }
 
-.flat-twitter-feeds-feed-content a,
-.flat-twitter-profile-bio a {
+.flat-twitter-feeds .flat-twitter-feeds-feed-content a,
+.flat-twitter-profile .flat-twitter-profile-bio a {
 	color: #67B1EA!important;
 	font-weight: bold;
 	text-decoration: none;
 }
 
-.flat-twitter-follow-button-style-round {
+.flat-twitter-feeds .flat-twitter-follow-button-style-round,
+.flat-twitter-profile .flat-twitter-follow-button-style-round  {
 	border-radius: 20px!important;
 }
 
-.flat-twitter-avatar-style-round {
+.flat-twitter-feeds .flat-twitter-avatar-style-round,
+.flat-twitter-profile .flat-twitter-avatar-style-round {
 	border-radius: 50%!important;
 }
 
-.flat-twitter-add-border {
+.flat-twitter-feeds .flat-twitter-add-border,
+.flat-twitter-profile .flat-twitter-add-border {
 	border: 3px solid #fff;			
 	background-color: #fff;
 }
 
-.flat-twitter-naked-layout {
+.flat-twitter-feeds .flat-twitter-naked-layout,
+.flat-twitter-profile .flat-twitter-naked-layout {
 	border: 0!important;
 }
 
-.flat-twitter-feeds-content-youtube-video {
+.flat-twitter-feeds .flat-twitter-feeds-content-youtube-video {
     position: relative;
     margin-top: 14px;
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
 }
  
-.flat-twitter-feeds-content-youtube-video iframe,
-.flat-twitter-feeds-content-youtube-video object,
-.flat-twitter-feeds-content-youtube-video embed {
+.flat-twitter-feeds .flat-twitter-feeds-content-youtube-video iframe,
+.flat-twitter-feeds .flat-twitter-feeds-content-youtube-video object,
+.flat-twitter-feeds .flat-twitter-feeds-content-youtube-video embed {
     position: absolute;
     top: 0;
     left: 0;
@@ -61,12 +65,13 @@
     height: 100%;
 }
 
-.flat-twitter-feeds-content-photo {
+.flat-twitter-feeds .flat-twitter-feeds-content-photo {
 	border-radius: 4px;
 	margin-top: 14px;
 }
 
-.emojione {
+.flat-twitter-feeds .emojion,
+.flat-twitter-profile .emojion {
 	max-width: 16px;
 	max-height: 16px;
 }
@@ -77,14 +82,15 @@
 	overflow: hidden;
 	position: relative;
 	display: block;
-	border: solid 1px #ccc;
+	/*border: solid 1px #ccc;*/
 	min-width: 280px;
 	background-color: #fff;
 	border-radius: 6px;
 	word-wrap: break-word;
+	box-shadow: 0px 0px 2px 1px #DADADA;
 }
 
-.flat-twitter-profile-wrap {
+.flat-twitter-profile  .flat-twitter-profile-wrap {
 	position: relative;
 	height: 100%;
 	width: 100%;
@@ -92,7 +98,7 @@
 	overflow: hidden;
 }
 
-.flat-twitter-profile-cover {
+.flat-twitter-profile  .flat-twitter-profile-cover {
 	position: relative;
 	display: block;
 	height: 150px;
@@ -101,14 +107,14 @@
 	overflow: hidden;
 }
 
-.flat-twitter-profile-cover.horizontal {
+.flat-twitter-profile  .flat-twitter-profile-cover.horizontal {
 	width: 33.333333333%;
 	max-width: 33.333333333%;
 	position: absolute;
 	height: 100%;
 }
 
-.flat-twitter-profile-cover img {
+.flat-twitter-profile  .flat-twitter-profile-cover img {
 	position: absolute;
 	top: 0;
 	bottom: 0px;
@@ -117,7 +123,7 @@
 	max-width: 1040px;	
 }
 
-.flat-twitter-profile-cover.horizontal img {
+.flat-twitter-profile  .flat-twitter-profile-cover.horizontal img {
 	position: absolute;
 	top: 0;
 	width: auto;
@@ -126,27 +132,27 @@
 }
 
 /* adjusts the height according to its content */
-.flat-twitter-profile-info {
+.flat-twitter-profile  .flat-twitter-profile-info {
 	position: relative;
 	display: block;
 	width: 100%;
 	padding: 16px 0;
 }
 
-.flat-twitter-profile-info.horizontal {
+.flat-twitter-profile  .flat-twitter-profile-info.horizontal {
 width: 66.666666666%;
 max-width: 66.666666666%;
 float: right;
 
 }
 
-.flat-twitter-profile-info.minimal {
+.flat-twitter-profile  .flat-twitter-profile-info.minimal {
 	overflow: hidden;
 	width: 100%;
 	max-width: 100%;
 }
 
-.flat-twitter-profile-info-wrap  {
+.flat-twitter-profile  .flat-twitter-profile-info-wrap  {
 	position: relative;
 	display: block;
 	width: 80%;
@@ -154,29 +160,29 @@ float: right;
 	margin: 0 auto;
 }
 
-.flat-twitter-profile-cover.horizontal .flat-twitter-profile-info-wrap {
+.flat-twitter-profile  .flat-twitter-profile-cover.horizontal .flat-twitter-profile-info-wrap {
 	min-height: 82px; 
 }
 
-.flat-twitter-profile-info-wrap.minimal {
+.flat-twitter-profile .flat-twitter-profile-info-wrap.minimal {
 	width: 60%;
 	padding: 5%;
 	max-width: 60%;
 	float: right;
 }
 
-.flat-twitter-profile-avatar-wrap {
+.flat-twitter-profile .flat-twitter-profile-avatar-wrap {
 	position: relative;
 	display: block;
 }
 
-.flat-twitter-profile-avatar-wrap.default {
+.flat-twitter-profile .flat-twitter-profile-avatar-wrap.default {
 	margin: -96px auto 16px auto;
 	max-width: 116px;
 	max-height: 116px;
 }
 
-.flat-twitter-profile-avatar-wrap.horizontal {
+.flat-twitter-profile .flat-twitter-profile-avatar-wrap.horizontal {
 	position: absolute;
 	left: 0;
 	max-width: 96px;
@@ -186,7 +192,7 @@ float: right;
 	top: 50%;
 }
 
-.flat-twitter-profile-avatar-wrap.minimal {
+.flat-twitter-profile .flat-twitter-profile-avatar-wrap.minimal {
 	position: absolute;
 	height: 100%;
 	top: 0;
@@ -194,7 +200,7 @@ float: right;
 	width: 40%;
 	max-height: 100%;	
 }
-.flat-twitter-profile-avatar-wrap.minimal a {
+.flat-twitter-profile .flat-twitter-profile-avatar-wrap.minimal a {
 	position: relative;
 	display: block;
 	max-width: 96px;
@@ -203,7 +209,7 @@ float: right;
 	top: 50%;
 }
 
-.flat-twitter-profile-avatar {
+.flat-twitter-profile .flat-twitter-profile-avatar {
 	position: relative;		
 	width: 100%;
 	box-shadow: none!important;
@@ -213,7 +219,7 @@ float: right;
 	transition: all 0.2s;
 }
 
-.flat-twitter-profile-avatar:hover {
+.flat-twitter-profile .flat-twitter-profile-avatar:hover {
 	-webkit-transition: all 0.2s;
 	transition: all 0.2s;
 	-webkit-transform: scale(1.1);
@@ -221,38 +227,38 @@ float: right;
 	transform: scale(1.1);
 }
 
-.flat-twitter-profile-name {
+.flat-twitter-profile .flat-twitter-profile-name {
 	font-size: 100%;
 	position: relative;
 	display: block;
 	text-align: center;
 }
-.flat-twitter-profile-name a {
+.flat-twitter-profile .flat-twitter-profile-name a {
 	color: #1d1d1d!important;
 	font-size: 1.6em;
 	text-decoration: none;
 }
 
-.flat-twitter-profile-username {
+.flat-twitter-profile .flat-twitter-profile-username {
 	font-size: 100%!important;
 	position: relative;
 	display: block;
 	text-align: center;
 }
 
-.flat-twitter-profile-username a {
+.flat-twitter-profile .flat-twitter-profile-username a {
 	font-size: 1.4em;
 	color: #a1a1a1!important;
 	text-decoration: none;
 }
 
-.flat-twitter-profile-bio {
+.flat-twitter-profile .flat-twitter-profile-bio {
 	color: #414141;
 	text-align: center;
 	font-size: 1.2em;
 }
 
-.flat-twitter-profile-follow-button {
+.flat-twitter-profile .flat-twitter-profile-follow-button {
 	border: solid 2px;
 	position: relative;
 	display: block;
@@ -270,7 +276,7 @@ float: right;
 	-webkit-transition: all 0.3s!important;
 }
 
-.flat-twitter-profile-follow-button:hover {
+.flat-twitter-profile .flat-twitter-profile-follow-button:hover {
 	border-color: salmon;
 	color: salmon!important;
 	background-color: #fff!important;
@@ -279,7 +285,7 @@ float: right;
 
 }
 
-.flat-twitter-profile-follow-button.horizontal {
+.flat-twitter-profile .flat-twitter-profile-follow-button.horizontal {
 	position: absolute;
 	right: 4px;
 	top: 4px;
@@ -294,7 +300,7 @@ float: right;
 	border-radius: 50%;
 }
 
-.flat-twitter-profile-counters {
+.flat-twitter-profile .flat-twitter-profile-counters {
 	position: relative;
 	display: block;
 	width: 96%;
@@ -304,20 +310,21 @@ float: right;
 	margin: 0 auto;
 } 
 
-.flat-twitter-profile-counters.horizontal {
+.flat-twitter-profile .flat-twitter-profile-counters.horizontal {
 	background-color: #fff;
 	float: left;
 	width: 100%;
 	height: 44px;
 }
 
-.flat-twitter-profile-counter-wrap {
+.flat-twitter-profile .flat-twitter-profile-counter-wrap {
 	position: relative;
 	display: block;
+	margin: 0 auto;
 	height: 100%;
 }
 
-.flat-twitter-profile-counter {
+.flat-twitter-profile .flat-twitter-profile-counter {
 	position: relative;
 	display: block;
 	height: 100%;
@@ -326,35 +333,35 @@ float: right;
 	text-align: center;
 }
 
-.flat-twitter-profile-counter p {
+.flat-twitter-profile .flat-twitter-profile-counter p {
 	position: relative;
 	color: #b2b2b2;
 }
 
-.flat-twitter-profile-counter p.default {
-	line-height: 58px!important;
+.flat-twitter-profile .flat-twitter-profile-counter p.default {
+	/*line-height: 58px!important;*/
 }
 
-.flat-twitter-profile-counter p.horizontal {
+.flat-twitter-profile .flat-twitter-profile-counter p.horizontal {
 	line-height: 44px!important;
 }
 
-.flat-twitter-profile-counter  span {
+.flat-twitter-profile .flat-twitter-profile-counter  span {
 	font-weight: bold;
 	color: #5a5a5a;
 	font-size: 1.1em;
 	padding-right: 6px;
 }
 
-.flat-twitter-profile-counter-cols-1 {
+.flat-twitter-profile .flat-twitter-profile-counter-cols-1 {
 	width: 100%;
 }
 
-.flat-twitter-profile-counter-cols-2 {
+.flat-twitter-profile .flat-twitter-profile-counter-cols-2 {
 	width: 50%;
 }
 
-.flat-twitter-profile-counter-cols-3 {
+.flat-twitter-profile .flat-twitter-profile-counter-cols-3 {
 	width: 33.333333333%;
 }
 
@@ -366,22 +373,28 @@ float: right;
 	font-size: 16px;
 	background-color:#fff;
 }
-.flat-twitter-feeds-wrap {	
+
+.flat-twitter-feeds .flat-twitter-feeds-feed-list {
+	list-style: none;
+	margin: 0;
+}
+
+.flat-twitter-feeds .flat-twitter-feeds-wrap {	
 	padding:16px 14px;
 }
 
-.flat-twitter-feeds-feed:last-child {
+.flat-twitter-feeds .flat-twitter-feeds-feed:last-child {
 	border-bottom: 0;
 }
 
-.flat-twitter-feeds-feed {
+.flat-twitter-feeds .flat-twitter-feeds-feed {
 	padding: 14px 0 14px!important;
 	border-bottom: 1px solid rgba(0,0,0,0.1);
 	position: relative;
 	font-size: 62.5%!important;
 }
 
-.flat-twitter-feeds-feed:hover .flat-twitter-feeds-toggle {
+.flat-twitter-feeds .flat-twitter-feeds-feed:hover .flat-twitter-feeds-toggle {
 	display: block;
 	transition: all 0.3s linear;
 	-webkit-transition: all 0.3s linear;
@@ -389,7 +402,7 @@ float: right;
 	opacity: 1;
 }
 
-.flat-twitter-feeds-toggle {
+.flat-twitter-feeds .flat-twitter-feeds-toggle {
 	position:absolute;
 	bottom:3px;
 	left:3px;
@@ -408,12 +421,12 @@ float: right;
 	cursor: pointer;
 }
 
-.flat-twitter-feeds-header {
+.flat-twitter-feeds .flat-twitter-feeds-header {
 	position:relative;
 	height:40px;
 	max-height:40px;
 }
-.flat-twitter-feeds-feed-avatar {
+.flat-twitter-feeds .flat-twitter-feeds-feed-avatar {
 	max-height:40px;
 	max-width:40px;
 	float:left;
@@ -426,7 +439,7 @@ float: right;
 	-webkit-box-shadow: none!important;
 }
 
-.flat-twitter-feeds-feed-info {
+.flat-twitter-feeds .flat-twitter-feeds-feed-info {
 	text-decoration: none;
 	padding-left:10px;
 	float:left;
@@ -435,7 +448,7 @@ float: right;
 	width:auto;
 }
 
-.flat-twitter-feeds-feed-name {
+.flat-twitter-feeds .flat-twitter-feeds-feed-name {
 	text-decoration: none;
 	font-size:1.3em;
 	width:100%;
@@ -443,7 +456,7 @@ float: right;
 	position:relative;
 }
 
-.flat-twitter-feeds-feed-screenname {
+.flat-twitter-feeds .flat-twitter-feeds-feed-screenname {
 	color: #B2B2B2;
 	font-size:1.2em;
 	width:100%;
@@ -451,7 +464,7 @@ float: right;
 	position:relative;
 }
 
-.flat-twitter-feeds-feed-time {
+.flat-twitter-feeds .flat-twitter-feeds-feed-time {
 	color: #B2B2B2;
 	position:absolute;
 	right:0;
@@ -459,7 +472,7 @@ float: right;
 	font-size: 1.1em;
 }
 
-.flat-twitter-feeds-feed-content {
+.flat-twitter-feeds .flat-twitter-feeds-feed-content {
 	position: relative;
 	padding:4px 0 0 50px;
 	margin:0;
@@ -470,7 +483,7 @@ float: right;
 	display: none;
 }
 
-.flat-twitter-feeds-media-toggle {
+.flat-twitter-feeds .flat-twitter-feeds-media-toggle {
 	cursor: pointer;
 	line-height: 6px; 
 	height:20px;
@@ -482,7 +495,7 @@ float: right;
 	font-size: 18px;
 	font-weight: bold;
 }
-.flat-twitter-feeds-feed-actions {
+.flat-twitter-feeds .flat-twitter-feeds-feed-actions {
 	background-color: rgba(255, 255, 255, 0.98);
 	position: absolute;
 	top: 0;
@@ -493,7 +506,7 @@ float: right;
 	font-size: 1.5em;
 	margin: 0!important;
 }
-.flat-twitter-feeds-feed-action {
+.flat-twitter-feeds .flat-twitter-feeds-feed-action {
 	float: left;
 	width: 33.33333333%;
 	display: block;
@@ -501,7 +514,7 @@ float: right;
 	padding-bottom: 0!important;
 	height: 100%;
 }
-.flat-twitter-feeds-feed-action a {
+.flat-twitter-feeds .flat-twitter-feeds-feed-action a {
 	width: 100%;
 	height: 60px;
 	display: block;
@@ -514,45 +527,45 @@ float: right;
 	color: #B2A7A6!important;
 }
 
-.flat-twitter-feeds-feed-action a span {
+.flat-twitter-feeds .flat-twitter-feeds-feed-action a span {
 	position: relative;
 	display: block;
 	height: 16px;
 	margin: 0 auto;
 }
 
-.flat-twitter-feeds-feed-action-reply-icon {
+.flat-twitter-feeds .flat-twitter-feeds-feed-action-reply-icon {
 	background: url('../img/reply-sprite.png') 0 0 no-repeat;
 	width: 16px;
 }
 
-.flat-twitter-feeds-feed-action-retweet-icon {
+.flat-twitter-feeds .flat-twitter-feeds-feed-action-retweet-icon {
 	background: url('../img/retweet-sprite.png') 0 0 no-repeat;
 	width: 19px;
 }
 
-.flat-twitter-feeds-feed-action-favorite-icon {	
+.flat-twitter-feeds .flat-twitter-feeds-feed-action-favorite-icon {	
 	background: url('../img/favorite-sprite.png') 0 0 no-repeat;
 	width: 16px;
 }
 
-.flat-twitter-feeds-feed-action-retweet a:hover span,
-.flat-twitter-feeds-feed-action-retweet a:visited span {
+.flat-twitter-feeds .flat-twitter-feeds-feed-action-retweet a:hover span,
+.flat-twitter-feeds .flat-twitter-feeds-feed-action-retweet a:visited span {
 	background-position: -19px 0;
 }
 
-.flat-twitter-feeds-feed-action-reply a:hover span,
-.flat-twitter-feeds-feed-action-favorite a:hover span,
-.flat-twitter-feeds-feed-action-reply a:visited span,
-.flat-twitter-feeds-feed-action-favorite a:visited span  {
+.flat-twitter-feeds .flat-twitter-feeds-feed-action-reply a:hover span,
+.flat-twitter-feeds .flat-twitter-feeds-feed-action-favorite a:hover span,
+.flat-twitter-feeds .flat-twitter-feeds-feed-action-reply a:visited span,
+.flat-twitter-feeds .flat-twitter-feeds-feed-action-favorite a:visited span  {
 	background-position: -16px 0;
 }
 
-.flat-twitter-feeds-feed-action-favorite a:hover,
-.flat-twitter-feeds-feed-action-favorite a:visited,
-.flat-twitter-feeds-feed-action-retweet a:hover,
-.flat-twitter-feeds-feed-action-retweet a:visited,
-.flat-twitter-feeds-feed-action-reply a:hover,
-.flat-twitter-feeds-feed-action-reply a:visited {
+.flat-twitter-feeds .flat-twitter-feeds-feed-action-favorite a:hover,
+.flat-twitter-feeds .flat-twitter-feeds-feed-action-favorite a:visited,
+.flat-twitter-feeds .flat-twitter-feeds-feed-action-retweet a:hover,
+.flat-twitter-feeds .flat-twitter-feeds-feed-action-retweet a:visited,
+.flat-twitter-feeds .flat-twitter-feeds-feed-action-reply a:hover,
+.flat-twitter-feeds .flat-twitter-feeds-feed-action-reply a:visited {
 	color: #666666!important;
 }
