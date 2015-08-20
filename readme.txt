@@ -2,7 +2,7 @@
 Contributors: lambertmb
 Donate link: http://lambertmb.com/
 Tags: twitter, tweets, share, social, feeds, profile, ajax, flat design
-Requires at least: 4.0
+Requires at least: 4.3
 Tested up to: 4.2.2
 Stable tag: 4.2.2
 License: GPLv2 or later
@@ -18,7 +18,7 @@ Profile widget includes 3 different layouts and allows you to configure things l
 Feeds widget has three different options as well. You can choose to display the feeds from your user timeline, home timeline or the result of search Twitter. When displaying a feed, if enabled, you will be able to show the image or/and the Youtube video attached to it.
 In addition the Feeds widget makes use of caching system, supports emoji, reply button, retweet button and follow button.
 
-You can see a live demo at http://lambertmb.com/flat-twitter/
+You can see a live demo at http://lambertmb.com/flat-twitter-demo/
 
 If you have suggestions feel free to email me at hello@lambertmb.com.
 
