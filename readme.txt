@@ -2,9 +2,9 @@
 Contributors: lambertmb
 Donate link: http://lambertmb.com/
 Tags: twitter, tweets, share, social, feeds, profile, ajax, flat design
-Requires at least: 4.3
-Tested up to: 4.2.2
-Stable tag: 4.2.2
+Requires at least: 4.2.2
+Tested up to: 4.3
+Stable tag: 4.3
 License: GPLv2 or later
 
 Flat Twitter plugin gives you two widgets that will let you showcase your Twitter Profile or your Feeds with flat design graphics.
